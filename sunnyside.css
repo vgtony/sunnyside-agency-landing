@@ -8,17 +8,37 @@ body {
     width:0;
 }
 
+.big-orange {
+    position:relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-down {
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.text-logo {
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
+
 h1 {
     color:black;
     letter-spacing: 0.5rem;
     text-transform:uppercase;
     font-family:'Fraunces', serif;
     font-weight: 900;
-    position:absolute;
-    top:55%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    display:inline-flex;
+    
 }
 
 
