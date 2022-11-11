@@ -8,11 +8,14 @@ body {
     width:0;
 }
 
-.big-orange {
+.big-orange, .textimg {
     position:relative;
     justify-content: center;
     align-items: center;
 }
+
+
+
 
 .arrow-down {
     position:absolute;
@@ -32,16 +35,33 @@ body {
     justify-content:center;
 }
 
+.cherry-text, .tang-text {
+    position:absolute;
+    bottom:100px;
+    left:200px;
+    align-items:center;
+    justify-content:center;
+}
+
 h1 {
     color:black;
     letter-spacing: 0.5rem;
     text-transform:uppercase;
     font-family:'Fraunces', serif;
     font-weight: 900;
-    
 }
 
+h3 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    color: hsl(232, 10%, 55%);
+    text-transform: uppercase;
+    text-align: center;
+}
 
+#topNavbar .navbar {
+    position: absolute;
+}
 
 #topNavbar .nav-link {
     font-family: 'Barlow', sans-serif;
@@ -64,13 +84,16 @@ h1 {
     background-color: lightblue;
 }
 
-h2 {
+section h2 {
+    text-align: center;
     font-family: 'Fraunces', serif;
     font-weight: 700;
 }
 
 
-p {
+section p {
+    text-align: center;
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
+    color: hsl(232, 10%, 55%);
 }
