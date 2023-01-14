@@ -31,7 +31,7 @@ img {
     width:0;
 }
 
-.big-orange, .textimg {
+.big-orange, .textimg-section {
     position: relative;
     justify-content: center;
     align-items: center;
@@ -59,7 +59,8 @@ img {
 .cherry-text, .tang-text {
     position:absolute;
     bottom:100px;
-    left:200px;
+    left:270px;
+    right:270px;
     align-items:center;
     justify-content:center;
 }
@@ -118,4 +119,31 @@ section p {
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
     color: hsl(232, 10%, 55%);
+}
+
+.client-section {
+    padding: 150px;
+}
+
+.client-title {
+    justify-content: center;
+    letter-spacing: 8px;
+    padding-bottom: 80px;
+}
+
+.client-text {
+    text-align: center;
+    justify-content: space-around;
+}
+
+.client-img {
+    justify-content: space-around;
+    padding-bottom: 80px;
+    
+}
+
+.client {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
