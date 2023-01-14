@@ -6,24 +6,8 @@ body {
     box-sizing: border-box;
 }
 
-
-.child1 {
-    width: 100%;
-    height: 100%;
-}
-
 .row {
     margin: 0;
-}
-
-.child2 {
-    height: 100%;
-    width: 100%;
-}
-
-img {
-    height: 100%;
-    width: 100%;
 }
 
 .topText {
@@ -33,8 +17,6 @@ img {
 
 .big-orange, .textimg-section {
     position: relative;
-    justify-content: center;
-    align-items: center;
 }
 
 
@@ -45,40 +27,49 @@ img {
     transform:translate(-50%, -50%);
 }
 
+.white-text {
+    max-width: 364px;
+}
+
+
 .text-logo {
     position:absolute;
     top:20%;
     left:50%;
     transform:translate(-50%, -50%);
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    justify-content:center;
 }
 
-.cherry-text, .tang-text {
+.textimg-text {
     position:absolute;
-    bottom:100px;
-    left:270px;
-    right:270px;
-    align-items:center;
-    justify-content:center;
+    width: 100%;
+    max-width: 420px;
+    bottom:30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.fraunces-7 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.fraunces-9 {
+    font-family:'Fraunces', serif;
+    font-weight: 900;
+}
+
+.barlow-6 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+.dark-grayish-blue {
+    color: hsl(232, 10%, 55%);
 }
 
 h1 {
     color:black;
     letter-spacing: 0.5rem;
-    text-transform:uppercase;
-    font-family:'Fraunces', serif;
-    font-weight: 900;
-}
-
-h3 {
-    font-family: 'Fraunces', serif;
-    font-weight: 900;
-    color: hsl(232, 10%, 55%);
-    text-transform: uppercase;
-    text-align: center;
 }
 
 #topNavbar .navbar {
@@ -86,8 +77,6 @@ h3 {
 }
 
 #topNavbar .nav-link {
-    font-family: 'Barlow', sans-serif;
-    font-weight: 600;
     color: white;
     text-align:center;
 }
@@ -106,43 +95,16 @@ h3 {
     background-color: lightblue;
 }
 
-section h2 {
-    text-align: center;
-    justify-content: center;
-    font-family: 'Fraunces', serif;
-    font-weight: 700;
-}
-
-
-section p {
-    text-align: center;
-    font-family: 'Barlow', sans-serif;
-    font-weight: 600;
-    color: hsl(232, 10%, 55%);
-}
-
 .client-section {
     padding: 150px;
 }
 
 .client-title {
-    justify-content: center;
     letter-spacing: 8px;
     padding-bottom: 80px;
 }
 
-.client-text {
-    text-align: center;
-    justify-content: space-around;
-}
-
 .client-img {
-    justify-content: space-around;
-    padding-bottom: 80px;
-    
-}
-
-.client {
     border-radius: 50%;
     width: 50px;
     height: 50px;
