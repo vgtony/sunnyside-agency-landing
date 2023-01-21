@@ -85,7 +85,9 @@ h1 {
     text-align:center;
 }
 
-#topNavbar .nav-link span {
+
+
+.contract {
     padding: 0.8rem 1.5rem 0.8rem 1.5rem;
     color: black;
     background-color: white;
@@ -114,6 +116,7 @@ h1 {
     height: 50px;
 }
 
+
 .footer {
     background-color: hsl(168, 60%, 73%);
 }
@@ -126,4 +129,27 @@ h1 {
 
 .footer-text {
     padding-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .egg-transform {
+        order: 1;
+    }
+    .text-transform {
+        order: 2;
+    }
+    .white-text {
+        text-align: center;
+        padding: 60px 0 60px;
+    }
+    .contract {
+        background: gold;
+    }
+    .nav-txt {
+        color:hsl(232, 10%, 55%);
+    }
+    .navbar-nav {
+        background: white;
+    }
 }
